@@ -1,0 +1,104 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+hr{
+    margin-top:50px;
+    border:none;
+}
+
+/*nav*/
+.navbar{
+    padding:0.2% 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:400;
+    background-color:white;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight:bold;
+    font-family: 'Syne Mono', monospace;
+}
+
+.navbar-item{
+    padding:0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+
+.navHover{
+    position: relative;
+    display: block;
+}
+
+.navHover:before, .navHover:after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+
+.navHover:before{
+    left: -2.5px;
+}
+
+.navHover:after{
+    right: 2.5px;
+    background: #BEDBBB;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index:-1;
+}
+
+.navHover:hover:before{
+    background: #BEDBBB;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index:-1;
+}
+
+.navHover:hover:after{
+background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.intro{
+    padding:3% 8%;
+}
+
+.sanJose{
+    width:83vw;
+}
+
+.introTitle{
+    font-weight:bold;
+    font-size:3rem;
+    font-family: 'Syne Mono', monospace;
+    color:#BEDBBB;
+}
+
+.myBackground{
+    width:700px;
+    font-size:1.25rem;
+}
+
+.education{
+    font-weight:bold;
+    font-size:3rem;
+    font-family: 'Syne Mono', monospace;
+    color:#BEDBBB;
+}
+
+.educationDate{
+    font-size:1rem;
+    color:#ada5a5;
+}

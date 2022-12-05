@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/9d01fb42e6.js" crossorigin="anonymous"></script>
+    <title>Final Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">Athena Vo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbar-toggler-icon">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                  <li class="navbar-item">
+                    <a href="#cover" class="nav-link">
+                        <span class="navHover">Home</span>
+                    </a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="aboutMe.html" class="nav-link">
+                        <span class="navHover">About Me</span>
+                    </a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="resume.pdf" target="_blank" class="nav-link">
+                        <span class="navHover">Resume</span>
+                    </a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="#contactMe" class="nav-link">
+                        <span class="navHover">Contact</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+    </header>
+    <hr>
+
+    <!--cover-->
+    <section id="cover" class="coverIntro">
+        <div>
+            <p class="coverWords">
+                <span class="coverHighlight">Hello!</span>
+                <br>
+                I'm an
+                <br>
+                <span class="coverHighlight coverBold">aspiring physician associate</span>,
+                <br>
+                pursuing a
+                <br>
+                <span class="coverHighlight coverBold">Bachelor of Science in Human Biology</span>
+            </p>
+        </div>
+        <div class="creamBox"></div>
+        <div class="comboBox"></div>
+        <div class="greenBox"></div>
+    </section>
+
+    <!--projects/coursework-->
+    <section id="projects" class="container-fluid">
+        <h2 class="projectHeader">
+            My Work
+        </h2>
+        <ul class="projectGroup">
+            <div class="row projectList">
+                <li class="project biology col-sm">
+                    <img src="images/biology.jpg" alt="biology image">
+                    <br>
+                    <span class="projectCategory">Coursework</span>
+                    <br>
+                    <span class="projectTitle">General Biology</span>
+                    <p>Studying the biological functions and reactions of humans and various case studies of diseases.</p>
+                </li>
+                <li class="project dissection col-sm">
+                    <img src="images/rabbit.jpg" alt="rabbit image">
+                    <br>
+                    <span class="projectCategory">Lab</span>
+                    <br>
+                    <span class="projectTitle">Rabbit Dissection</span>
+                    <p>Dissection of a dead rabbit in order to study examine the anatomy and physiology of the organism.</p>
+                </li>
+                <li class="project chemistry col-sm">
+                    <img src="images/chemistry.jpg" alt="chemistry image">
+                    <br>
+                    <span class="projectCategory">Coursework</span>
+                    <br>
+                    <span class="projectTitle">General Chemistry</span>
+                    <p>Exploration of behavior of gases, pressure, and energy, and chemical reactions in the world.</p>
+                </li>
+            </div>
+        </ul>
+    </section>
+    <hr>
+    <section id="contactMe" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="contactEmail">
+                    <a href="mailto:a9vo@ucsd.edu" target="_blank" class="clickable lineThrough">a9vo@ucsd.edu</a>
+                </h1>
+                <p class="contactContext">Let's get in touch! I'd love to work together on any lab or project.</p>
+                <div class="contactIcons">
+                    <div class="icons">
+                        <a href="mailto:a9vo@ucsd.edu" target="_blank" class="clickable">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="clickable">
+                            <i class="fa-brands fa-facebook clickable fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contactText col-lg-6">
+                <form>
+                    <br>
+                    <br>
+                    <label for="contact" class="textTitle">Contact me</label>
+                    <br>
+                    <textarea rows="5" cols="60" name="text"></textarea>
+                    <br>
+                    <input type="submit" value="Send" class="btn btn-dark">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+</body>
+</html>
